@@ -27,13 +27,14 @@
 
 #include "atom/common/node_includes.h"
 
+// TODO(alexeykuzmin):   V(atom_browser_desktop_capturer)
+
 #define ELECTRON_BUILTIN_MODULES(V)          \
   V(atom_browser_app)                        \
   V(atom_browser_auto_updater)               \
   V(atom_browser_browser_view)               \
   V(atom_browser_content_tracing)            \
   V(atom_browser_debugger)                   \
-  V(atom_browser_desktop_capturer)           \
   V(atom_browser_dialog)                     \
   V(atom_browser_download_item)              \
   V(atom_browser_global_shortcut)            \
